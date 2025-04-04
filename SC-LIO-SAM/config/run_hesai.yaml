@@ -22,9 +22,10 @@ lio_sam:
 
   # Export settings
   savePCD: true                              # https://github.com/TixiaoShan/LIO-SAM/issues/3
-  savePCDDirectory: "/home/oxford_spires_dataset/data/2024-03-18_chrst_chrch_01/output_loc/sc_lio_sam/"        # in your home folder, starts and ends with "/". Warning: the code deletes "LOAM" folder then recreates it. See "mapOptimization" for implementation
+  # savePCDDirectory: "/home/oxford_spires_dataset/data/2024-03-18_chrst_chrch_01/output_loc/sc_lio_sam/"        
+  # in your home folder, starts and ends with "/". Warning: the code deletes "LOAM" folder then recreates it. See "mapOptimization" for implementation
   scene_name: "lio-sam"
-  saveDirectory: "/home/oxford_spires_dataset/data/2024-03-18_chrst_chrch_01/output_loc/sc_lio_sam/" 
+ 
   #   Sensor Settings
   sensor: hesai                            # lidar sensor type, 'velodyne' or 'ouster' or 'livox'
   N_SCAN: 64                                  # number of lidar channel (i.e., Velodyne/Ouster: 16, 32, 64, 128, Livox Horizon: 6)
